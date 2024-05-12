@@ -17,7 +17,7 @@ import thaitone from 'tailwind-thaitone'
 /** @type {import('tailwindcss').Config} */
 export default {
   plugins: [
-    thaitone()
+    thaitone
   ]
 }
 ```
