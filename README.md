@@ -1,18 +1,23 @@
-# quick-npm
+# Thaitone Tailwind Plugin
 
-Quick start template to rapidly develop NPM packages with speed, and automations.
+This is a Tailwind CSS plugin that adds [Thaitone](https://www.facebook.com/thaitonecolor/) colors to TailwindCSS color set.
+Hex code can be found in [Poakpong's article](https://poakpong.com/node/1998).
 
-## Install
+## Installation
 
 ```bash
-pnpm add @rayriffy/quick-npm
+pnpm add tailwind-thaitone
 ```
 
-## Setting up
+## Usage
 
-1. Allow GitHub Actions to create pull request
-2. Generate NPM authotization token into `NPM_TOKEN` secret
+```js
+import thaitone from 'tailwind-thaitone'
 
-## Publishing
-
-This repository has been configured to automatically publish NPM packages by [Changesets](https://github.com/changesets/changesets). Run `pnpm changeset` command to publishing your changes before commit.
+/** @type {import('tailwindcss').Config} */
+export default {
+  plugins: [
+    thaitone()
+  ]
+}
+```
