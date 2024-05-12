@@ -1,5 +1,11 @@
 # tailwind-thaitone
 
+## 1.0.3
+
+### Patch Changes
+
+- 61e778a: tailwind library as external libraries
+
 ## 1.0.2
 
 ### Patch Changes
