@@ -1,4 +1,4 @@
-name: web
+name: Documentation
 
 on:
   push:
@@ -30,6 +30,8 @@ jobs:
           node-version: 20
           cache: pnpm
       - name: install
+        run: pnpm i
+      - name: install-docs
         run: pnpm i
         working-directory: docs
       - name: build
