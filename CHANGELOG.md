@@ -1,5 +1,11 @@
 # tailwind-thaitone
 
+## 1.0.2
+
+### Patch Changes
+
+- 7a74a08: plugin should be initialized as a function
+
 ## 1.0.1
 
 ### Patch Changes
