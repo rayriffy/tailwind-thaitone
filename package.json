@@ -16,7 +16,7 @@
     }
   },
   "repository": {
-    "url": "git+https://github.com/rayriffy/thaiwind-thaitone"
+    "url": "git+https://github.com/rayriffy/tailwind-thaitone"
   },
   "publishConfig": {
     "access": "public",
