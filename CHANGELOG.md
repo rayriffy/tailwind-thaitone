@@ -1,5 +1,15 @@
 # tailwind-thaitone
 
+## 1.1.0
+
+### Minor Changes
+
+- 4f7e42a: plugin no longer require to be imported as a function
+
+### Patch Changes
+
+- 48b438d: added documentation
+
 ## 1.0.3
 
 ### Patch Changes
