@@ -1,13 +1,17 @@
 <script lang="ts">
   import clsx from 'clsx'
   import type { Color } from './types'
+  import { colors } from '../../src'
 
   export let color: Color
+  export let isHex: boolean
 
   let copied = false
 
   const handleClick = () => {
-    navigator.clipboard.writeText(color.l)
+    navigator.clipboard.writeText(
+      isHex ? colors[color.l] : color.l
+    )
     copied = true
     setTimeout(() => {
       copied = false
